@@ -19,9 +19,9 @@ public class Budder extends JavaPlugin {
 			return true;
 		}
 		
-		Player p = (Player) sender;
 		
 		if(cmd.getName().equalsIgnoreCase("budder")) {
+			Player p = (Player) sender;
 			ItemStack budder = new ItemStack(Material.GOLD_INGOT, 64);
 			ItemMeta meta = budder.getItemMeta();
 			meta.setDisplayName(ChatColor.GOLD+"Budder!!");
