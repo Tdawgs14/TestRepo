@@ -1,0 +1,7 @@
+name: Budder
+version: 1.0
+main: me.tdawgs14.Budder
+commands:
+  budder:
+    usage: /<command>
+    description: Get Some BUDDER!
